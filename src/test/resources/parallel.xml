@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All tests suite" parallel="classes" thread-count="7" >
+    <test name="Arithmetic tests">
+        <classes>
+            <class name="SumAndSubLongTest"></class>
+            <class name="SumAndSubDoubleTest"></class>
+            <class name="MultAndDivLongTest"></class>
+            <class name="MultAndDivDoubleTest"></class>
+            <class name="PowAndSqrtTest"></class>
+        </classes>
+    </test>
+    <test name="Trigonometry tests">
+        <classes>
+            <class name="TrigonometryTest"></class>
+        </classes>
+    </test>
+    <test name="Positive Negative tests">
+        <classes>
+            <class name="PositiveNegativeFactoryTest"></class>
+        </classes>
+    </test>
+</suite>
